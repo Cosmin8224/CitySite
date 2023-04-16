@@ -1,0 +1,35 @@
+.city-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .city-card {
+  margin: 1rem;
+  }
+  
+  .title-panel {
+  margin: 50px 0 20px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: red;
+  }
+  
+  .separator {
+  display: block;
+  height: 3px;
+  margin: 0;
+  background-color: white;
+  width: 30%;
+  margin:0 auto;
+  }
+  
+  .panel{
+  background-color: white;
+  }

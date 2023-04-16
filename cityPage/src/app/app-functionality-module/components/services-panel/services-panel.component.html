@@ -1,0 +1,19 @@
+<div class="service-panel">
+    <h2 class="title">Our Services</h2>
+    <span class="separator"></span>
+    <div class="services">
+      <div class="left">
+        <div class="service" *ngFor="let service of services.slice(0, 2)">
+          <h3>{{ service.title }}</h3>
+          <p>{{ service.description }}</p>
+        </div>
+      </div>
+      <div class="right">
+        <div class="service" *ngFor="let service of services.slice(2)">
+          <h3>{{ service.title }}</h3>
+          <p>{{ service.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  

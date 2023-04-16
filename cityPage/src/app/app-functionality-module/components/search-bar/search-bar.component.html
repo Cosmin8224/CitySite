@@ -1,0 +1,11 @@
+<div class="search-bar">
+    <h1>Search and book all our destinations</h1>
+    <form (ngSubmit)="search()">
+        <input type="text" [(ngModel)]="searchQuery" name="searchQuery" placeholder="Search for a city">
+    <button type="submit" click="search()">Search</button>
+    <div *ngFor="let city of cities">
+        <app-city-card [city]="city" ></app-city-card>
+    </div>
+    </form>
+  </div>
+  

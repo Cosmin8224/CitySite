@@ -1,0 +1,9 @@
+<div class="panel">
+<h1 class="title-panel">MOST POPULAR</h1>
+<span class="separator"></span>
+<div class="city-list">    
+    <div class="city-card" *ngFor="let city of cities">
+      <app-city-card [city]="city" (visitNow)="onVisit($event)"></app-city-card>
+    </div>
+  </div>
+</div>

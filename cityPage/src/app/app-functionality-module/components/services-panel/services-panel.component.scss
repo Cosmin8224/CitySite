@@ -1,0 +1,42 @@
+.service-panel {
+  background-color: #760000;
+  background-image: url("https://example.com/world-discovering-bg.jpg");
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 90px;
+  margin-bottom: 60px;
+  margin-right: 90px;
+
+  .title {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+
+  .services {
+    display: flex;
+
+    .left, .right {
+      flex: 1;
+    }
+
+    .service {
+      margin-bottom: 50px;
+
+      h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #FFFFFF;
+      }
+
+      p {
+        font-size: 16px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
